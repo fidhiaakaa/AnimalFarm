@@ -14,7 +14,7 @@ public class AnimalFarm {
 		printWelcome();
 		while(!finished) {
 			HashSet<String> input = Animal.getInput();
-			if(input.contains("bye")) {
+			if(input.contains("Keluar")) {
 				finished = true;
 			}
 			else {
@@ -32,7 +32,7 @@ public class AnimalFarm {
 		System.out.println("2. Ayam");
 		System.out.println("3. Kucing");
 		System.out.println("Ketik nama hewannya ya!");
-		System.out.println("Ketik 'bye' untuk keluar dari sistem.");
+		System.out.println("Ketik 'Keluar' untuk keluar dari sistem.");
 	}
 	
 	private void printGoodbye() {
